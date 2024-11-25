@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+
+
+body {
+    font-family: "Kalam", cursive;
+    background-color: white;
+}
+nav li {
+    border-radius: 5vh;
+    transition: all 0.5s ease-in-out;
+}
+nav li:hover {
+    transform: translateY(-3px);  /* Légère élévation */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Ombre autour du texte */
+}
+
+.background-image {
+    margin-top: 20vh;
+    position: absolute; /* Positionnement absolu pour pouvoir manipuler le z-index */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    z-index: -1; /* L'image est derrière les autres éléments */
+}
+.custom-title {
+    transition: transform 0.5s ease; /* Transition pour l'effet de zoom */
+}
+
+.custom-title:hover {
+    transform: scale(1.2);  /* Agrandissement du bouton lors du survol */
+}
+
+
+.custom-button {
+    background-color: white;
+    padding: 2vh;
+    border-radius: 4vh;
+    text-decoration: none;
+    border: none;
+    margin-top: 30vh;
+    margin-left: 10vh;
+    
+}
+
+
+.custom-button2 {
+    background-color: white;
+    padding: 2vh;
+    border-radius: 4vh;
+    text-decoration: none;
+    border: none;
+    margin-top: 10vh;
+
+    
+}
+
+.footer-background {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 11%, rgba(241,216,89,1) 62%);
+}
+
+.footer-text {
+    position: absolute;
+    bottom: 0;
+}
+
+footer {
+    max-width: 100%;
+    height: 30vh;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 11%, rgba(241,216,89,1) 62%);
+}

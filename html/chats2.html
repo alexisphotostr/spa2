@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/chat-styles.css " />
+    <link rel="icon" href="../assets/img/Logo_de_la_SPA_(France).png" type="image/x-icon">
+
+
+
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-white" style="margin-top: 2vh;">
+        <div class="container d-flex flex-column align-items-center">
+            <!-- Logo + Titre -->
+            <div class="d-flex align-items-center justify-content-center mb-3">
+                <img src="../assets/img/image 5.png" alt="SPA Logo" class="img-fluid" style="height: 5vh;">
+                <h1 class="ms-3 mb-0 kalam-font fs-1">société protectrice des animaux</h1>
+            </div>
+        
+            <!-- Navigation -->
+            <div class="navbar-nav">
+                <ul class="navbar-nav d-flex flex-row gap-4 fs-5">
+                    <li class="nav-item">
+                        <a class="nav-link text-decoration-underline kalam-font" href="../index.html">accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-decoration-underline kalam-font" href="../html/faireundon.html">faire un don</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-decoration-underline kalam-font" href="../html/animaux.html">animaux</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-decoration-underline kalam-font" href="../html/boutique.html">boutique</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>    <br>
+    <br>
+
+    <div id="content" class="main-content" style="background-color: #F1D859; height: auto;">
+        <div class="container">
+            <br>
+            <br>
+            <br>
+
+            <div class="bg-white rounded-pill p-3 mb-4 text-center mx-4">
+                <h2 class="mb-0 fs-1">Adopter un Chat !</h2>
+            </div>
+            <br>
+            <br>
+            
+            <div class="row">
+      
+
+                <!-- Justin Card -->
+                <div class="col-md-4 mb-5 col-lg-4">
+                    <div class="card p-4 rounded-5" data-bs-toggle="modal" data-bs-target="#justinModal">
+                        <img src="../assets/img/justin.png" class="card-img-top" alt="Justin">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Nom: Justin</h5>
+                            <p class="card-text fs-3">âge: 4 ans</p>
+                            <button class="adopt-btn rounded fs-4" style="background-color: #FFCACA;">Adopter !</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pirate Card -->
+                <div class="col-md-4 mb-5 col-lg-4">
+                    <div class="card p-4 rounded-5" data-bs-toggle="modal" data-bs-target="#pirateModal">
+                        <img src="../assets/img/pirate.png" class="card-img-top" alt="Pirate">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Nom: Pirate</h5>
+                            <p class="card-text fs-3">âge: 7 ans</p>
+                            <button class="adopt-btn rounded fs-4" style="background-color: #FFCACA;">Adopter !</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pilou Card -->
+                <div class="col-md-4 mb-5 col-lg-4">
+                    <div class="card p-4 rounded-5" data-bs-toggle="modal" data-bs-target="#PilouModal">
+                        <img src="../assets/img/carton.png" class="card-img-top" alt="Pilou">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Nom: Pilou</h5>
+                            <p class="card-text fs-3">âge: 5 ans</p>
+                            <button class="adopt-btn rounded fs-4" style="background-color: #FFCACA;">Adopter !</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Saturne Card -->
+                <div class="col-md-4 mb-5 col-lg-4">
+                    <div class="card p-4 rounded-5" data-bs-toggle="modal" data-bs-target="#saturneModal">
+                        <img src="../assets/img/saturne.png" class="card-img-top" alt="Saturne">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Nom: Saturne</h5>
+                            <p class="card-text fs-3">âge: 3 mois</p>
+                            <button class="adopt-btn rounded fs-4" style="background-color: #FFCACA;">Adopter !</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pakra Card -->
+                <div class="col-md-4 mb-5 col-lg-4">
+                    <div class="card p-4 rounded-5" data-bs-toggle="modal" data-bs-target="#pakraModal">
+                        <img src="../assets/img/pakra.png" class="card-img-top" alt="Pakra">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Nom: Pakra</h5>
+                            <p class="card-text fs-3">âge: 1 an</p>
+                            <button class="adopt-btn rounded fs-4" style="background-color: #FFCACA;">Adopter !</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pichou Card -->
+                <div class="col-md-4 mb-5 col-lg-4">
+                    <div class="card p-4 rounded-5" data-bs-toggle="modal" data-bs-target="#pichouModal">
+                        <img src="../assets/img/pichou.png" class="card-img-top" alt="Pichou">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Nom: Pichou</h5>
+                            <p class="card-text fs-3">âge: 3 ans</p>
+                            <button class="adopt-btn rounded fs-4" style="background-color: #FFCACA;">Adopter !</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Roudoudou Card -->
+                <div class="col-md-4 mb-5 col-lg-4">
+                    <div class="card p-4 rounded-5" data-bs-toggle="modal" data-bs-target="#roudoudouModal">
+                        <img src="../assets/img/rondoudou.png" class="card-img-top" alt="Roudoudou">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Nom: Roudoudou</h5>
+                            <p class="card-text fs-3">âge: 11 mois</p>
+                            <button class="adopt-btn rounded fs-4" style="background-color: #FFCACA;">Adopter !</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+            </div>
+        </div>
+    
+        <!-- Modals -->
+        
+
+    <!-- Justin Modal -->
+    <div class="modal fade" id="justinModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center fw-bold fs-1">Justin</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../assets/img/map3.png" class="img-fluid mb-3" alt="Justin">
+                    <p class="fs-2">Justin est un chat de 4 ans très joueur. Il aime les aventures et s'entend bien avec les autres chats.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="adopt-btn rounded">Adopter Justin</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pirate Modal -->
+    <div class="modal fade" id="pirateModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center fw-bold fs-1">Pirate</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../assets/img/map4.png" class="img-fluid mb-3" alt="Pirate">
+                    <p class="fs-2">Pirate est un vieux chat de 7 ans avec beaucoup de sagesse. Il est très attachant et aime la compagnie tranquille.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="adopt-btn rounded">Adopter Pirate</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pilou Modal -->
+    <div class="modal fade" id="PilouModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center fw-bold fs-1">Pilou</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../assets/img/map5.png" class="img-fluid mb-3" alt="Pilou">
+                    <p class="fs-2">Pilou est un chat adorable de 5 ans, très affectueux et calme, idéal pour une vie en appartement.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="adopt-btn rounded">Adopter Pilou</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Saturne Modal -->
+    <div class="modal fade" id="saturneModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center fw-bold fs-1">Saturne</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../assets/img/map6.png" class="img-fluid mb-3" alt="Saturne">
+                    <p class="fs-2">Saturne est un petit chaton de 3 mois, curieux et joueur. Il est parfait pour une famille avec enfants.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="adopt-btn rounded">Adopter Saturne</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pakra Modal -->
+    <div class="modal fade" id="pakraModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center fw-bold fs-1">Pakra</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../assets/img/map1.png" class="img-fluid mb-3" alt="Pakra">
+                    <p class="fs-2">Pakra est un jeune chat de 1 an, très affectueux et énergique. Il serait idéal pour une famille active.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="adopt-btn rounded">Adopter Pakra</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pichou Modal -->
+    <div class="modal fade" id="pichouModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center fw-bold fs-1">Pichou</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../assets/img/map2.png" class="img-fluid mb-3" alt="Pichou">
+                    <p class="fs-2">Pichou est un chat doux de 3 ans, très câlin et à la recherche d'une famille aimante.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="adopt-btn rounded">Adopter Pichou</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Roudoudou Modal -->
+    <div class="modal fade" id="roudoudouModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center fw-bold fs-1">Roudoudou</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../assets/img/map3.png" class="img-fluid mb-3" alt="Roudoudou">
+                    <p class="fs-2">Roudoudou est un chat de 11 mois, curieux et sociable, parfait pour une famille avec autres animaux.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="adopt-btn rounded">Adopter Roudoudou</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bounty Modal -->
+    <div class="modal fade" id="bountyModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center fw-bold fs-1">Bounty</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../assets/img/map4.png" class="img-fluid mb-3" alt="Bounty">
+                    <p class="fs-2">Bounty est un chat de 6 ans adorable et très câlin. Il aime passer du temps avec ses humains et sera un excellent compagnon pour une personne seule ou une famille tranquille.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="adopt-btn rounded">Adopter Bounty</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="d-flex justify-content-center" style="background-color: #F1D859;">
+        <a href="../html/chats.html" style="background-color: aliceblue; padding: 1vh; border-radius: 1vh; text-decoration: none; color: black;">page: <span class="fw-bold">2</span>/2</a>
+        
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="bg-warning text-center py-4 mt-auto" style="height: 20vh;">
+        <div class="container" style="margin-top: 5vh;">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Copyright Text -->
+                    <p class="mb-2">© 2024 SPA</p>
+                    <!-- Heart Icon with text -->
+                    <p class="mb-3">Made with <span class="text-danger">❤️</span></p>
+                    <!-- Footer Links -->
+                    <div class="d-flex justify-content-center">
+                        <a href="../index.html" class="text-dark mx-3 text-decoration-none">accueil</a>
+                        <a href="../html/animaux.html" class="text-dark mx-3 text-decoration-none">animaux</a>
+                        <a href="../html/faireundon.html" class="text-dark mx-3 text-decoration-none">faire un don</a>
+                        <a href="../html/boutique.html" class="text-dark mx-3 text-decoration-none">boutique</a>
+                    </div>
+                    <!-- Legal Mention -->
+                    <p class="mt-3">
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" class="text-dark text-decoration-none">Mentions Légales</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+   
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

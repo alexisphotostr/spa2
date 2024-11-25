@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/chat-styles.css" />
+    <link rel="icon" href="../assets/img/Logo_de_la_SPA_(France).png" type="image/x-icon">
+
+</head>
+
+<body>
+    <!-- JavaScript Bundle avec Popper.js (nécessaire pour Bootstrap) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white" style="margin-top: 2vh;">
+        <div class="container d-flex flex-column align-items-center">
+            <div class="d-flex align-items-center justify-content-center mb-3">
+                <img src="../assets/img/image 5.png" alt="SPA Logo" class="img-fluid" style="height: 5vh;">
+                <h1 class="ms-3 mb-0 kalam-font fs-1">société protectrice des animaux</h1>
+            </div>
+        
+            <div class="navbar-nav">
+                <ul class="navbar-nav d-flex flex-row gap-4 fs-5">
+                    <li class="nav-item">
+                        <a class="nav-link text-decoration-underline kalam-font" href="../index.html">accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-decoration-underline kalam-font" href="../html/faireundon.html">faire un don</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-decoration-underline kalam-font" href="../html/animaux.html">animaux</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-decoration-underline kalam-font" href="../html/boutique.html">boutique</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <br><br><br>
+
+    <div id="content" class="main-content" style="background-color: #F1D859; height: auto;">
+        <div class="container">
+            <br><br><br>
+            <div class="bg-white rounded-pill p-3 mb-4 text-center mx-4">
+                <h2 class="mb-0 fs-1">Adopter un Chien !</h2>
+            </div>
+            <br><br>
+            <div class="row">
+                <!-- Earl Card -->
+                <div class="col-md-4 mb-5 col-lg-4">
+                    <div class="card p-4 rounded-5" data-bs-toggle="modal" data-bs-target="#earlModal">
+                        <img src="../assets/img/chiens/image (6).png" class="card-img-top" alt="Earl">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Nom: Earl</h5>
+                            <p class="card-text fs-3">âge: 2 ans</p>
+                            <button class="adopt-btn rounded fs-4" style="background-color: #FFCACA;">Adopter !</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ramses Card -->
+                <div class="col-md-4 mb-5 col-lg-4">
+                    <div class="card p-4 rounded-5" data-bs-toggle="modal" data-bs-target="#ramsesModal">
+                        <img src="../assets/img/chiens/image (7).png" class="card-img-top" alt="Ramses">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Nom: Ramses</h5>
+                            <p class="card-text fs-3">âge: 5 ans</p>
+                            <button class="adopt-btn rounded fs-4" style="background-color: #FFCACA;">Adopter !</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sonye Card -->
+                <div class="col-md-4 mb-5 col-lg-4">
+                    <div class="card p-4 rounded-5" data-bs-toggle="modal" data-bs-target="#sonyeModal">
+                        <img src="../assets/img/chiens/image (8).png" class="card-img-top" alt="Sonye">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Nom: Sonye</h5>
+                            <p class="card-text fs-3">âge: 4 ans</p>
+                            <button class="adopt-btn rounded fs-4" style="background-color: #FFCACA;">Adopter !</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Paco Card -->
+                <div class="col-md-4 mb-5 col-lg-4">
+                    <div class="card p-4 rounded-5" data-bs-toggle="modal" data-bs-target="#pacoModal">
+                        <img src="../assets/img/chiens/image (10).png" class="card-img-top" alt="Paco">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Nom: Paco</h5>
+                            <p class="card-text fs-3">âge: 6 ans</p>
+                            <button class="adopt-btn rounded fs-4" style="background-color: #FFCACA;">Adopter !</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Spike Card -->
+                <div class="col-md-4 mb-5 col-lg-4">
+                    <div class="card p-4 rounded-5" data-bs-toggle="modal" data-bs-target="#spikeModal">
+                        <img src="../assets/img/chiens/image20.png" class="card-img-top" alt="Spike">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Nom: Spike</h5>
+                            <p class="card-text fs-3">âge: 3 ans</p>
+                            <button class="adopt-btn rounded fs-4" style="background-color: #FFCACA;">Adopter !</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Arroyo Card -->
+                <div class="col-md-4 mb-5 col-lg-4">
+                    <div class="card p-4 rounded-5" data-bs-toggle="modal" data-bs-target="#arroyoModal">
+                        <img src="../assets/img/chiens/image-1.png" class="card-img-top" alt="Arroyo">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Nom: Arroyo</h5>
+                            <p class="card-text fs-3">âge: 7 ans</p>
+                            <button class="adopt-btn rounded fs-4" style="background-color: #FFCACA;">Adopter !</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Black Card -->
+                <div class="col-md-4 mb-5 col-lg-4">
+                    <div class="card p-4 rounded-5" data-bs-toggle="modal" data-bs-target="#blackModal">
+                        <img src="../assets/img/chiens/image-3.png" class="card-img-top" alt="Black">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Nom: Black</h5>
+                            <p class="card-text fs-3">âge: 8 ans</p>
+                            <button class="adopt-btn rounded fs-4" style="background-color: #FFCACA;">Adopter !</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Django Card -->
+                <div class="col-md-4 mb-5 col-lg-4">
+                    <div class="card p-4 rounded-5" data-bs-toggle="modal" data-bs-target="#djangoModal">
+                        <img src="../assets/img/chiens/image-2.png" class="card-img-top" alt="Django">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Nom: Django</h5>
+                            <p class="card-text fs-3">âge: 3 ans</p>
+                            <button class="adopt-btn rounded fs-4" style="background-color: #FFCACA;">Adopter !</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tarzan Card -->
+                <div class="col-md-4 mb-5 col-lg-4">
+                    <div class="card p-4 rounded-5" data-bs-toggle="modal" data-bs-target="#tarzanModal">
+                        <img src="../assets/img/chiens/image-4.png" class="card-img-top" alt="Tarzan">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Nom: Tarzan</h5>
+                            <p class="card-text fs-3">âge: 6 ans</p>
+                            <button class="adopt-btn rounded fs-4" style="background-color: #FFCACA;">Adopter !</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+      <!-- Modals -->
+        <!-- Earl Modal -->
+        <div class="modal fade" id="earlModal" tabindex="-1">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center fw-bold fs-1">Earl</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../assets/img/map1.png" class="img-fluid mb-3" alt="Earl">
+                        <p class="fs-2">Earl est un jeune chien de 2 ans très énergique. Il adore courir, jouer à la balle et se promener. Ce chien est parfait pour une famille active qui aime les activités en plein air.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="adopt-btn rounded">Adopter Earl</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Ramses Modal -->
+        <div class="modal fade" id="ramsesModal" tabindex="-1">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center fw-bold fs-1">Ramses</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../assets/img/map2.png" class="img-fluid mb-3" alt="Ramses">
+                        <p class="fs-2">Ramses est un chien calme et affectueux de 5 ans. Il aime les câlins et les moments de tranquillité. Ramses serait un excellent compagnon pour une famille qui recherche un chien calme et doux.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="adopt-btn rounded">Adopter Ramses</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sonye Modal -->
+        <div class="modal fade" id="sonyeModal" tabindex="-1">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center fw-bold fs-1">Sonye</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../assets/img/map3.png" class="img-fluid mb-3" alt="Sonye">
+                        <p class="fs-2">Sonye est un chien énergique de 4 ans, toujours prêt pour l'aventure. Il adore les longues promenades et les jeux interactifs. Ce chien dynamique serait idéal pour un propriétaire qui aime faire de l'exercice et explorer.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="adopt-btn rounded">Adopter Sonye</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Paco Modal -->
+        <div class="modal fade" id="pacoModal" tabindex="-1">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center fw-bold fs-1">Paco</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../assets/img/map4.png" class="img-fluid mb-3" alt="Paco">
+                        <p class="fs-2">Paco est un chien joyeux de 6 ans avec une personnalité enjouée et amicale. Il aime être entouré de sa famille et il s'entend bien avec les autres animaux. Paco est le compagnon idéal pour une famille avec enfants.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="adopt-btn rounded">Adopter Paco</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Spike Modal -->
+        <div class="modal fade" id="spikeModal" tabindex="-1">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center fw-bold fs-1">Spike</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../assets/img/map5.png" class="img-fluid mb-3" alt="Spike">
+                        <p class="fs-2">Spike est un chien de 3 ans, courageux et protecteur. Il est toujours vigilant et aime protéger sa famille. Spike est un excellent chien de garde et un fidèle compagnon pour les personnes qui recherchent un chien intelligent et alerte.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="adopt-btn rounded">Adopter Spike</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Arroyo Modal -->
+        <div class="modal fade" id="arroyoModal" tabindex="-1">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center fw-bold fs-1">Arroyo</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../assets/img/map6.png" class="img-fluid mb-3" alt="Arroyo">
+                        <p class="fs-2">Arroyo est un chien de 7 ans calme et sage. Il aime se prélasser au soleil et est parfait pour quelqu'un qui cherche un compagnon tranquille et affectueux. Arroyo s'entend bien avec les enfants et les autres animaux.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="adopt-btn rounded">Adopter Arroyo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Black Modal -->
+        <div class="modal fade" id="blackModal" tabindex="-1">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center fw-bold fs-1">Black</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../assets/img/map7.png" class="img-fluid mb-3" alt="Black">
+                        <p class="fs-2">Black est un chien affectueux de 8 ans avec une personnalité douce et calme. Il adore les câlins et les moments de tranquillité. Black serait le parfait compagnon pour une famille calme qui recherche un chien calme et sage.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="adopt-btn rounded">Adopter Black</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Django Modal -->
+        <div class="modal fade" id="djangoModal" tabindex="-1">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center fw-bold fs-1">Django</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../assets/img/map1.png" class="img-fluid mb-3" alt="Django">
+                        <p class="fs-2">Django est un chien vif et joueur de 3 ans. Il est intelligent et aime apprendre de nouveaux tours. Django est parfait pour une famille qui aime jouer à l'extérieur et qui souhaite un chien énergique et affectueux.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="adopt-btn rounded">Adopter Django</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tarzan Modal -->
+        <div class="modal fade" id="tarzanModal" tabindex="-1">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center fw-bold fs-1">Tarzan</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../assets/img/map2.png" class="img-fluid mb-3" alt="Tarzan">
+                        <p class="fs-2">Tarzan est un chien de 6 ans calme et adorable. Il aime passer du temps avec sa famille et est particulièrement doux avec les enfants. Tarzan serait un excellent ajout à une famille à la recherche d'un chien calme et amical.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="adopt-btn rounded">Adopter Tarzan</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="d-flex justify-content-center" style="background-color: #F1D859;">
+        <a href="../html/chien2.html" style="background-color: aliceblue; padding: 1vh; border-radius: 1vh; text-decoration: none; color: black;">page: <span class="fw-bold">1</span>/2</a>
+        
+    </div>
+
+
+    <!-- Footer Section -->
+    <footer class="bg-warning text-center py-4 mt-auto" style="height: 20vh;">
+        <div class="container" style="margin-top: 5vh;">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Copyright Text -->
+                    <p class="mb-2">© 2024 SPA</p>
+                    <!-- Heart Icon with text -->
+                    <p class="mb-3">Made with <span class="text-danger">❤️</span></p>
+                    <!-- Footer Links -->
+                    <div class="d-flex justify-content-center">
+                        <a href="../index.html" class="text-dark mx-3 text-decoration-none">accueil</a>
+                        <a href="../html/animaux.html" class="text-dark mx-3 text-decoration-none">animaux</a>
+                        <a href="../html/faireundon.html" class="text-dark mx-3 text-decoration-none">faire un don</a>
+                        <a href="../html/boutique.html" class="text-dark mx-3 text-decoration-none">boutique</a>
+                    </div>
+                    <!-- Legal Mention -->
+                    <p class="mt-3">
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" class="text-dark text-decoration-none">Mentions Légales</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

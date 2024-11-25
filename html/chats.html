@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/chat-styles.css " />
+    <link rel="icon" href="../assets/img/Logo_de_la_SPA_(France).png" type="image/x-icon">
+
+
+
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-white" style="margin-top: 2vh;">
+        <div class="container d-flex flex-column align-items-center">
+            <!-- Logo + Titre -->
+            <div class="d-flex align-items-center justify-content-center mb-3">
+                <img src="../assets/img/image 5.png" alt="SPA Logo" class="img-fluid" style="height: 5vh;">
+                <h1 class="ms-3 mb-0 kalam-font fs-1">société protectrice des animaux</h1>
+            </div>
+        
+            <!-- Navigation -->
+            <div class="navbar-nav">
+                <ul class="navbar-nav d-flex flex-row gap-4 fs-5">
+                    <li class="nav-item">
+                        <a class="nav-link text-decoration-underline kalam-font" href="../index.html">accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-decoration-underline kalam-font" href="../html/faireundon.html">faire un don</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-decoration-underline kalam-font" href="../html/animaux.html">animaux</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-decoration-underline kalam-font" href="../html/boutique.html">boutique</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>    <br>
+    <br>
+
+    <div id="content" class="main-content" style="background-color: #F1D859; height: auto;">
+        <div class="container">
+            <br>
+            <br>
+            <br>
+
+            <div class="bg-white rounded-pill p-3 mb-4 text-center mx-4">
+                <h2 class="mb-0 fs-1">Adopter un Chat !</h2>
+            </div>
+            <br>
+            <br>
+            
+            <div class="row">
+                <!-- Pipou Card -->
+                <div class="col-md-4 mb-5 col-lg-4">
+                    <div class="card p-4 rounded-5" data-bs-toggle="modal" data-bs-target="#pipouModal">
+                        <img src="../assets/img/image(2).png" class="card-img-top" alt="Pipou">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Nom: Pipou</h5>
+                            <p class="card-text fs-3">âge: 1 an</p>
+                            <button class="adopt-btn rounded fs-4" style="background-color: #FFCACA;">Adopter !</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Xyris Card -->
+                <div class="col-md-4 mb-5 col-lg-4">
+                    <div class="card p-4 rounded-5" data-bs-toggle="modal" data-bs-target="#xyrisModal">
+                        <img src="../assets/img/image(3).png" class="card-img-top" alt="Xyris">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Nom: Xyris</h5>
+                            <p class="card-text fs-3">âge: 5 ans</p>
+                            <button class="adopt-btn rounded fs-4" style="background-color: #FFCACA;">Adopter !</button>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Vimo Card -->
+                <div class="col-md-4 mb-5 col-lg-4">
+                    <div class="card p-4 rounded-5" data-bs-toggle="modal" data-bs-target="#vimoModal">
+                        <img src="../assets/img/image(5).png" class="card-img-top" alt="Vimo">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Nom: Vimo</h5>
+                            <p class="card-text fs-3">âge: 8 ans</p>
+                            <button class="adopt-btn rounded fs-4" style="background-color: #FFCACA;">Adopter !</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- Mimi Card -->
+                <div class="col-md-4 mb-5 col-lg-4">
+                    <div class="card p-4 rounded-5" data-bs-toggle="modal" data-bs-target="#mimiModal">
+                        <img src="../assets/img/image(4).png" class="card-img-top" alt="Mimi">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Nom: Mimi</h5>
+                            <p class="card-text fs-3">âge: 9 ans</p>
+                            <button class="adopt-btn rounded fs-4" style="background-color: #FFCACA;">Adopter !</button>
+                        </div>
+                    </div>
+                </div>
+ 
+                <!-- Wally Card -->
+                <div class="col-md-4 mb-5 col-lg-4">
+                    <div class="card p-4 rounded-5" data-bs-toggle="modal" data-bs-target="#wallyModal">
+                        <img src="../assets/img/wally.png" class="card-img-top" alt="Wally">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Nom: Wally</h5>
+                            <p class="card-text fs-3">âge: 3 an</p>
+                            <button class="adopt-btn rounded fs-4" style="background-color: #FFCACA;">Adopter !</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mushika Card -->
+                <div class="col-md-4 mb-5 col-lg-4">
+                    <div class="card p-4 rounded-5" data-bs-toggle="modal" data-bs-target="#mushikaModal">
+                        <img src="../assets/img/mushika.png" class="card-img-top" alt="Mushika">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Nom: Mushika</h5>
+                            <p class="card-text fs-3">âge: 4 mois</p>
+                            <button class="adopt-btn rounded fs-4" style="background-color: #FFCACA;">Adopter !</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Bounty Card -->
+                <div class="col-md-4 mb-5 col-lg-4">
+                    <div class="card p-4 rounded-5" data-bs-toggle="modal" data-bs-target="#bountyModal">
+                        <img src="../assets/img/bounty.png" class="card-img-top" alt="Bounty">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Nom: Bounty</h5>
+                            <p class="card-text fs-3">âge: 6 ans</p>
+                            <button class="adopt-btn rounded fs-4" style="background-color: #FFCACA;">Adopter !</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chouquette Card -->
+                <div class="col-md-4 mb-5 col-lg-4">
+                    <div class="card p-4 rounded-5" data-bs-toggle="modal" data-bs-target="#chouquetteModal">
+                        <img src="../assets/img/chouquette.png" class="card-img-top" alt="Chouquette">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Nom: Chouquette</h5>
+                            <p class="card-text fs-3">âge: 8 mois</p>
+                            <button class="adopt-btn rounded fs-4" style="background-color: #FFCACA;">Adopter !</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Beignet Card -->
+                <div class="col-md-4 mb-5 col-lg-4">
+                    <div class="card p-4 rounded-5" data-bs-toggle="modal" data-bs-target="#beignetModal">
+                        <img src="../assets/img/beignet.png" class="card-img-top" alt="Beignet">
+                        <div class="card-body text-center">
+                            <h5 class="card-title fs-3">Nom: Beignet</h5>
+                            <p class="card-text fs-3">âge: 2 an</p>
+                            <button class="adopt-btn rounded fs-4" style="background-color: #FFCACA;">Adopter !</button>
+                        </div>
+                    </div>
+                </div>
+
+               
+    </div>
+            </div>
+        </div>
+    
+        <!-- Modals -->
+        <!-- Pipou Modal -->
+        <div class="modal fade" id="pipouModal" tabindex="-1">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center fw-bold fs-1">Pipou</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../assets/img/map7.png" class="img-fluid mb-3" alt="Pipou">
+                        <p class="fs-2">Pipou est un jeune chat roux d'un an plein d'énergie ! Il adore jouer et est très câlin. Il s'entend bien avec les autres chats et serait parfait pour une famille active.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="adopt-btn rounded">Adopter Pipou</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Xyris Modal -->
+        <div class="modal fade" id="xyrisModal" tabindex="-1">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center fw-bold fs-1">Xyris</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../assets/img/map2.png" class="img-fluid mb-3" alt="Xyris">
+                        <p class="fs-2">Xyris est un chat tigré de 5 ans, calme et posé. Il aime les moments tranquilles et sera un excellent compagnon pour une personne seule ou un foyer paisible.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="adopt-btn rounded">Adopter Xyris</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Vimo Modal -->
+        <div class="modal fade" id="vimoModal" tabindex="-1">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center fw-bold fs-1">Vimo</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../assets/img/map3.png" class="img-fluid mb-3" alt="Vimo">
+                        <p class="fs-2">Vimo est un chat tigré de 8 ans avec beaucoup de caractère. Il est indépendant mais affectueux avec ses humains préférés. Il préfère être le seul chat de la maison.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="adopt-btn rounded">Adopter Vimo</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Mimi Modal -->
+        <div class="modal fade" id="mimiModal" tabindex="-1">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title text-center fw-bold fs-1">Mimi</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="../assets/img/map4.png" class="img-fluid mb-3" alt="Mimi">
+                        <p class="fs-2">Mimi est une chatte tricolore de 9 ans très douce. Elle adore se blottir sur les genoux et ronronner. C'est une compagne idéale pour une personne cherchant un chat calme et affectueux.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="adopt-btn rounded">Adopter Mimi</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Wally Modal -->
+    <div class="modal fade" id="wallyModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center fw-bold fs-1">Wally</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../assets/img/map5.png" class="img-fluid mb-3" alt="Wally">
+                    <p class="fs-2">Wally est un jeune chat roux de 3 ans plein d'énergie ! Il adore jouer et est très câlin. Il s'entend bien avec les autres chats et serait parfait pour une famille active.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="adopt-btn rounded">Adopter Wally</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mushika Modal -->
+    <div class="modal fade" id="mushikaModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center fw-bold fs-1">Mushika</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <h3>Je suis ici !</h3>
+                    <img src="../assets/img/map6.png" class="img-fluid mb-3" alt="Mushika">
+                    <p class="fs-2">Mushika est un chaton de 4 mois plein de vie et d'affection. Il s'entend bien avec les autres animaux et serait parfait pour une famille avec enfants qui pourront jouer avec lui.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="adopt-btn rounded">Adopter Mushika</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Chouquette Modal -->
+    <div class="modal fade" id="chouquetteModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center fw-bold fs-1">Chouquette</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../assets/img/map1.png" class="img-fluid mb-3" alt="Chouquette">
+                    <p class="fs-2">Chouquette est une jeune chatte de 8 mois, pleine de curiosité et d'énergie. Elle aime explorer et est très affectueuse.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="adopt-btn rounded">Adopter Chouquette</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Beignet Modal -->
+    <div class="modal fade" id="beignetModal" tabindex="-1">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center fw-bold fs-1">Beignet</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <img src="../assets/img/map2.png" class="img-fluid mb-3" alt="Beignet">
+                    <p class="fs-2">Beignet est un jeune chat de 2 ans, calme et câlin. Il aime les moments tranquilles et apprécie la compagnie humaine.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="adopt-btn rounded">Adopter Beignet</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+    <div class="d-flex justify-content-center" style="background-color: #F1D859;">
+        <a href="../html/chats2.html" style="background-color: aliceblue; padding: 1vh; border-radius: 1vh; text-decoration: none; color: black;">page: <span class="fw-bold">1</span>/2</a>
+        
+    </div>
+    
+    
+        
+    <!-- Footer Section -->
+    <footer class="bg-warning text-center py-4 mt-auto" style="height: 20vh;">
+        <div class="container" style="margin-top: 5vh;">
+            <div class="row">
+                <div class="col-12">
+                    <!-- Copyright Text -->
+                    <p class="mb-2">© 2024 SPA</p>
+                    <!-- Heart Icon with text -->
+                    <p class="mb-3">Made with <span class="text-danger">❤️</span></p>
+                    <!-- Footer Links -->
+                    <div class="d-flex justify-content-center">
+                        <a href="../index.html" class="text-dark mx-3 text-decoration-none">accueil</a>
+                        <a href="../html/animaux.html" class="text-dark mx-3 text-decoration-none">animaux</a>
+                        <a href="../html/faireundon.html" class="text-dark mx-3 text-decoration-none">faire un don</a>
+                        <a href="../html/boutique.html" class="text-dark mx-3 text-decoration-none">boutique</a>
+                    </div>
+                    <!-- Legal Mention -->
+                    <p class="mt-3">
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" class="text-dark text-decoration-none">Mentions Légales</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
